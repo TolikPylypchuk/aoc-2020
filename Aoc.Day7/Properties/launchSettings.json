@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Aoc.Day7": {
+      "commandName": "Project",
+      "commandLineArgs": "input.txt \"shiny gold\""
+    }
+  }
+}
