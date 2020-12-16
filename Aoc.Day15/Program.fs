@@ -45,13 +45,12 @@ let playOnce state =
 
     Some (newState, newState)
 
-let playGame numTurns nums =
-    nums
-    |> Seq.fold playInitial initialState
-    |> Seq.unfold playOnce
-    |> Seq.skipWhile (fun state -> state.CurrentTurn <= numTurns)
-    |> Seq.head
-    |> fun state -> state.PreviousNumber
+let playGame numTurns =
+    Seq.fold playInitial initialState
+    >> Seq.unfold playOnce
+    >> Seq.skipWhile (fun state -> state.CurrentTurn <= numTurns)
+    >> Seq.head
+    >> fun state -> state.PreviousNumber
 
 [<EntryPoint>]
 let main argv =
@@ -71,5 +70,5 @@ let main argv =
 
         0
     | _ ->
-        printfn "Usage: Aoc.Day14 file"
+        printfn "Usage: Aoc.Day15 file"
         1
