@@ -13,24 +13,6 @@ let rec execute =
     | Addition (left, right) -> execute left + execute right
     | Multiplication (left, right) -> execute left * execute right
 
-let rec rightmostNumber =
-    function
-    | Number num -> num
-    | Addition (_, right) -> rightmostNumber right
-    | Multiplication (_, right) -> rightmostNumber right
-
-let rec leftmostNumber =
-    function
-    | Number num -> num
-    | Addition (left, _) -> leftmostNumber left
-    | Multiplication (left, _) -> leftmostNumber left
-
-let rec executeAdditionFirst =
-    function
-    | Number num -> num
-    | Addition (left, right) -> execute left + execute right
-    | Multiplication (left, right) -> execute left * execute right
-  
 let complexExpression left op right =
     match op with
     | '+' -> Addition (left, right)
