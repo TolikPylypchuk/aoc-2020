@@ -49,7 +49,9 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Aoc.Day17", "Aoc.Day17\Aoc.
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Aoc.Day18", "Aoc.Day18\Aoc.Day18.fsproj", "{7FB64095-9958-4DED-89B2-64305C07B5FF}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Aoc.Day19", "Aoc.Day19\Aoc.Day19.fsproj", "{AFC814F7-8E37-4F45-9C7C-676EB3261127}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Aoc.Day19", "Aoc.Day19\Aoc.Day19.fsproj", "{AFC814F7-8E37-4F45-9C7C-676EB3261127}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Aoc.Day20", "Aoc.Day20\Aoc.Day20.fsproj", "{0CF422CC-464E-46EA-A63C-04E38E39BC78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -133,6 +135,10 @@ Global
 		{AFC814F7-8E37-4F45-9C7C-676EB3261127}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFC814F7-8E37-4F45-9C7C-676EB3261127}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFC814F7-8E37-4F45-9C7C-676EB3261127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF422CC-464E-46EA-A63C-04E38E39BC78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF422CC-464E-46EA-A63C-04E38E39BC78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF422CC-464E-46EA-A63C-04E38E39BC78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF422CC-464E-46EA-A63C-04E38E39BC78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
