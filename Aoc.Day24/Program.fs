@@ -145,5 +145,5 @@ let main argv =
 
         0
     | _ ->
-        printfn "Usage: Aoc.Day23 file"
+        printfn "Usage: Aoc.Day24 file"
         1
